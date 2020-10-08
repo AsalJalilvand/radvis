@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <title>Assignment 2</title>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="radvis.js"></script>
+</head>
+
+<body class="container">
+<div class="row">
+
+    <div class="col-lg-2">
+        <label for="datasets">Dataset:</label>
+        <select class="form-control" id="datasets">
+            <option value="white">White Wine Quality</option>
+            <option value="red">Red Wine Quality</option>
+            <option value="iris">Iris</option>
+        </select>
+    </div>
+    <div class="col-lg-2">
+        <label for="menu-color">Color Scheme:</label><br/>
+        <select id="menu-color" class="form-control"></select>
+    </div>
+
+    <div class="col-lg-2">
+        <label for="slider">Opacity:</label><br/>
+        <input type="range" min="0" max="100" id="slider"/>
+    </div>
+
+    <div class="col-lg-offset-8">
+        <button id="reset" class="button-reset">Reset</button>
+        <button id="visualizationType" class="button-switch-visualization col"></button>
+    </div>
+
+
+</div>
+<br>
+
+<div class="row">
+    <div class="col-lg-12"  id="anchorCheckbox">
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-2" id="svgContainer">
+    </div>
+    <div id="tooltip" class="col-lg-offset-8">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-offset-2" id="colorLegend">
+    </div>
+</div>
+
+</body>
+</html>

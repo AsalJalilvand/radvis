@@ -1,0 +1,73 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+
+circle {
+    fill: #ddd;
+    cursor: pointer;
+}
+
+.frame {
+    fill: none;
+    stroke: #000;
+}
+
+#tooltip {
+    height: 220px;
+    visibility: hidden;
+    margin-top: 150px;
+}
+
+#slider {
+    margin-top: 12px;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    background: rgba(189, 214, 255, 0.36);
+    outline: none;
+}
+
+
+.force {
+    height: 20px;
+    position: relative;
+}
+
+.force .label {
+    width: 150px;
+    text-align: right;
+    color: black;
+}
+
+.force .bar {
+    height: 19px;
+    background-color: YellowGreen;
+}
+
+.force div {
+    display: inline-block;
+}
+
+.button-reset {
+    background-color: #06c2ff;
+    border-radius: 5%;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.button-switch-visualization {
+    background-color: #ffa600;
+    border-radius: 5%;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 15px;
+}
