@@ -1,13 +1,13 @@
 # Radvis and Star Coordinates
 Developed as an assignment for CSCI 6612 - Visual Analytics, Fall 2019, Dalhousie University
 
-You can see the demo [here.](https://bl.ocks.org/AsalJalilvand/raw/fdef69b4d77ca698921fad9e987675f6/).
+You can see the demo [here](https://bl.ocks.org/AsalJalilvand/raw/fdef69b4d77ca698921fad9e987675f6/).
 
 Radvis
-![Radvis](https://github.com/AsalJalilvand/radvis/radvis.png)
+![Radvis](https://raw.githubusercontent.com/AsalJalilvand/radvis/master/radvis.png)
 
 Star Coordinates
-![Starcoordinates](https://github.com/AsalJalilvand/radvis/star.png)
+![Starcoordinates](https://raw.githubusercontent.com/AsalJalilvand/radvis/master/star.png)
 
 ### Datasets
 iris.csv based on:
